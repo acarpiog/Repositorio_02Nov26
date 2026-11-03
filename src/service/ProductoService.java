@@ -25,6 +25,7 @@ public class ProductoService {
         productoRepo.guardar(producto);
 
         Console.info("Producto registrado: " + nombre);
+        Console.info("Mi cambio");
     }
 
     public Producto buscarProducto(int id) {
